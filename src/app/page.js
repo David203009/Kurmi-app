@@ -1,5 +1,10 @@
-export default function Home(params) {
-    return(
-        <h1>Home Page</h1>
-    )
-};
+import Image from 'next/image'
+import Products from '@/components/Products'
+
+export default function Home() {
+  return (
+    <div className=''>
+        <Products/>
+    </div>
+  )
+}
